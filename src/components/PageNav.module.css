@@ -1,0 +1,9 @@
+.nav a {
+  background-color: #fff;
+  color: #333;
+}
+
+.nav :global(.active) {
+  background-color: #333;
+  color: #fff;
+}
