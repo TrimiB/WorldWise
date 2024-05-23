@@ -1,9 +1,19 @@
 import styles from './CityList.module.css';
 import CityItem from './CityItem';
 import Spinner from './Spinner';
+import Message from './Message';
 
 function CityList({ cities, isLoading }) {
   if (isLoading) return <Spinner />;
+
+  if (!cities.length)
+    return (
+      <Message
+        message={
+          'You have not saved any cities yet. Klick on a city on the map to add a city to your list.'
+        }
+      />
+    );
 
   return (
     <ul className={styles.cityList}>
