@@ -2,8 +2,8 @@
 
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import DatePicker from 'react-datepicker';
 
+import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 import styles from './Form.module.css';
 
@@ -28,7 +28,7 @@ const BASE_URL = 'https://api.bigdatacloud.net/data/reverse-geocode-client';
 function Form() {
   const { createCity, isLoading } = useCities();
   const [lat, lng] = useUrlPosition();
-  const navigate = useNavigate;
+  const navigate = useNavigate();
 
   const [isLoadingGeocoding, setIsLoadingGeocoding] = useState(false);
   const [cityName, setCityName] = useState('');
