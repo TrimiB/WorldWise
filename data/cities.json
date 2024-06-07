@@ -1,16 +1,40 @@
 {
   "cities": [
     {
-      "cityName": "Madrid",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2027-07-15T08:22:53.976Z",
+      "id": "3adb",
+      "cityName": "Stuttgart",
+      "country": "Germany",
+      "emoji": "🇩🇪",
+      "date": "2024-06-07T20:58:20.646Z",
+      "notes": "toll",
+      "position": {
+        "lat": "48.75665979470539",
+        "lng": "9.191012067632474"
+      }
+    },
+    {
+      "id": "c103",
+      "cityName": "Strasbourg",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2024-06-07T21:01:22.549Z",
       "notes": "",
       "position": {
-        "lat": 40.46635901755316,
-        "lng": -3.7133789062500004
-      },
-      "id": "17806751"
+        "lat": "48.583220788792715",
+        "lng": "7.762096664060889"
+      }
+    },
+    {
+      "id": "c9cc",
+      "cityName": "Strasbourg",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2024-06-07T21:03:01.613Z",
+      "notes": "",
+      "position": {
+        "lat": "48.583220788792715",
+        "lng": "7.762096664060889"
+      }
     }
   ]
 }
